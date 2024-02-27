@@ -1,7 +1,9 @@
 import './App.css';
 
+
 import Greet from './Components/Greet';
 import UseStateHook from './Components/UseStateHook';
+import EventHandlingParent from './Components/EventHandlingParent';
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <p>Long Term Plan</p>
       </Greet>
       <UseStateHook />
+      <EventHandlingParent />
     </div>
   );
 }
