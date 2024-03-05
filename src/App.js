@@ -5,6 +5,7 @@ import Greet from './Components/Greet';
 import UseStateHook from './Components/UseStateHook';
 import EventHandlingParent from './Components/EventHandlingParent';
 import ConditionalRendering from './Components/ConditionalRendering';
+import ListRendering from './Components/ListRendering';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       </Greet>
       <UseStateHook />
       <EventHandlingParent /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <ListRendering />
     </div>
   );
 }
