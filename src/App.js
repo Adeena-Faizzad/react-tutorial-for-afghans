@@ -6,6 +6,9 @@ import UseStateHook from './Components/UseStateHook';
 import EventHandlingParent from './Components/EventHandlingParent';
 import ConditionalRendering from './Components/ConditionalRendering';
 import ListRendering from './Components/ListRendering';
+import Stylesheet from './Components/Stylesheet';
+import InlineStyle from './Components/InlineStyle';
+import ModuleStyle from './Components/ModuleStyle';
 
 function App() {
   return (
@@ -19,7 +22,10 @@ function App() {
       <UseStateHook />
       <EventHandlingParent /> */}
       {/* <ConditionalRendering /> */}
-      <ListRendering />
+      {/* <ListRendering /> */}
+      {/* <Stylesheet /> */}
+      {/* <InlineStyle /> */}
+      <ModuleStyle />
     </div>
   );
 }
