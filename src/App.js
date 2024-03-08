@@ -9,6 +9,7 @@ import ListRendering from './Components/ListRendering';
 import Stylesheet from './Components/Stylesheet';
 import InlineStyle from './Components/InlineStyle';
 import ModuleStyle from './Components/ModuleStyle';
+import FormHandling from './Components/FormHandling';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <ListRendering /> */}
       {/* <Stylesheet /> */}
       {/* <InlineStyle /> */}
-      <ModuleStyle />
+      {/* <ModuleStyle /> */}
+      <FormHandling />
     </div>
   );
 }
