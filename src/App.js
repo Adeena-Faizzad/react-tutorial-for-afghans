@@ -1,3 +1,5 @@
+import { Routes, Route } from 'react-router-dom';
+
 import './App.css';
 
 
@@ -10,25 +12,19 @@ import Stylesheet from './Components/Stylesheet';
 import InlineStyle from './Components/InlineStyle';
 import ModuleStyle from './Components/ModuleStyle';
 import FormHandling from './Components/FormHandling';
+import Home from './Components/RoutingFiles/Home';
+import About from './Components/RoutingFiles/About';
+import Navbar from './Components/RoutingFiles/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      {/* <Greet city='Kabul' />
-      <Greet city='Istanbul'/>
-      <Greet city='Berlin'/>
-      <Greet city='California'>
-        <p>Long Term Plan</p>
-      </Greet>
-      <UseStateHook />
-      <EventHandlingParent /> */}
-      {/* <ConditionalRendering /> */}
-      {/* <ListRendering /> */}
-      {/* <Stylesheet /> */}
-      {/* <InlineStyle /> */}
-      {/* <ModuleStyle /> */}
-      <FormHandling />
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='about' element={<About/>}></Route>
+      </Routes>
+    </>
   );
 }
 
