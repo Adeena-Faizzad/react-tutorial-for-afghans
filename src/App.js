@@ -16,6 +16,7 @@ import Home from './Components/RoutingFiles/Home';
 import About from './Components/RoutingFiles/About';
 import Navbar from './Components/RoutingFiles/Navbar';
 import OrderSummary from './Components/RoutingFiles/OrderSummary';
+import NoMuchRout from './Components/RoutingFiles/NoMuchRout';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/' element={<Home/>}></Route>
         <Route path='about' element={<About/>}></Route>
         <Route path='order-summary' element={<OrderSummary />}></Route>
+        <Route path='*' element={<NoMuchRout />} ></Route>
       </Routes>
     </>
   );
